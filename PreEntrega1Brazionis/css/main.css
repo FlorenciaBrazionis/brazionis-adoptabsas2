@@ -1,0 +1,308 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+.header {
+    background-color: #fec118;
+
+}
+
+.titulo-header {
+    color: white;
+    font-family:'Archivo', sans-serif;
+    font-weight: 800;
+    font-size: 50px;
+    background-color: #fec118;
+    padding: 80px; 
+       
+}
+
+.barra-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style-type: none;
+    background-color: #fec118;
+    padding: 7px;
+
+}
+
+.barra-header a {
+    font-family:'Archivo', sans-serif;
+    font-size: 20px;
+    list-style: none;
+    text-decoration: none;
+    color:white;
+    
+}
+
+
+
+.cuerpo {
+    display: flex;
+    color: black;
+    font-family:'Archivo', sans-serif;
+    font-weight: 10;
+    font-size: 20px;
+    font-style: light;
+    justify-content:center;
+    text-align:justify;
+    
+    
+}
+
+h3 {
+    padding: 20px;
+    font-family:'Archivo', sans-serif;
+    font-weight: 10;
+    font-size: 20px;
+    
+    
+}
+
+.formulario {
+    display: flex;
+    color: black;
+    font-family:'Archivo', sans-serif;
+    font-weight: 10;
+    font-size: 20px;
+    justify-content:center
+    
+}
+
+.titulo-body {
+    background-image: url("../multimedia/vista-lateral-perro-mirando-lejos-copia-espacio_23-2148326235.jpg");
+    display: flex;
+    color:#fec118;
+    justify-content: center;
+    background-attachment:fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 15%;
+    
+
+}
+
+h2 {
+    display: flex;
+    color:#fec118;
+    font-family:'Archivo', sans-serif;
+    font-style: light;
+    font-weight: 700;
+    font-size: 50px;
+    justify-content:center;
+    
+}
+
+
+.footer a {
+    color: gray; 
+    text-decoration: none;
+    margin: 0 4px;
+    
+}
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content:right;
+    background-color: #fec118;
+    
+}
+
+/* estilo caba */
+.titulo-caba {
+    background-image: url("../multimedia/adorable-perro-basenji-marron-blanco-sonriendo-dando-maximo-cinco-aislado-blanco_346278-1657.jpg");
+    justify-content: center;
+    background-attachment:fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: top 0;
+    margin: bottom 0;
+    padding: 15%;
+}
+
+.imagen-caba {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top:10px; 
+    margin-bottom:50px;
+}
+
+.link-caba a {
+    color: black;
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    margin-left: 5%;
+    
+
+}
+
+.link-caba {
+    background-color:white;
+    font-family:'Archivo', sans-serif;
+    font-style: light;
+    font-weight: 10;
+    font-size: 20px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    
+
+}
+
+
+/* estilo norte */
+.titulo-norte {
+    background-image: url("../multimedia/perro-durmiendo-primer-plano-cabeza-perro-callejero-pelirrojo-comodidad-tranquilidad-mascotas_114160-1869.jpg");
+    justify-content: center;
+    background-attachment:fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: top 0;
+    margin: bottom 0;
+    padding: 15%;
+}
+
+.imagen-norte {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top:10px; 
+    margin-bottom:50px;
+}
+
+.link-norte a {
+    color: black;
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    margin-left: 5%;
+    
+
+}
+
+.link-norte {
+    background-color:white;
+    font-family:'Archivo', sans-serif;
+    font-style: light;
+    font-weight: 10;
+    font-size: 20px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    
+
+}
+
+
+/* estilo oeste */
+.titulo-oeste {
+    background-image: url("../multimedia/perro-cachorro-feliz-sonriendo-sobre-fondo-purpura-aislado_77749-593.jpg");
+    justify-content: center;
+    background-attachment:fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: top 0;
+    margin: bottom 0;
+    padding: 15%;
+}
+
+.imagen-oeste {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top:10px; 
+    margin-bottom:50px;
+}
+
+.link-oeste a {
+    color: black;
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    margin-left: 5%;
+    
+
+}
+
+.link-oeste {
+    background-color:white;
+    font-family:'Archivo', sans-serif;
+    font-style: light;
+    font-weight: 10;
+    font-size: 20px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    
+
+}
+
+
+/* estilo sur */
+.titulo-sur {
+    background-image: url("../multimedia/perro-pequeno-siendo-adorable-retrato-estudio_23-2149016956.jpg");
+    justify-content: center;
+    background-attachment:fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: top 0;
+    margin: bottom 0;
+    padding: 15%;
+}
+
+.imagen-sur {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top:10px; 
+    margin-bottom:50px;
+}
+
+.link-sur a {
+    color: black;
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    margin-left: 5%;
+    
+
+}
+
+.link-sur {
+    background-color:white;
+    font-family:'Archivo', sans-serif;
+    font-style: light;
+    font-weight: 10;
+    font-size: 20px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    
+
+}
